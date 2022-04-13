@@ -4,10 +4,14 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +28,34 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.characterContainer {
+  max-width: 35%;
+  height: 100%;
+  margin-left: auto;
+  padding-top: 128px;
+}
+
+.characterMaxWidthWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+.grayBar {
+  background: hsl(195deg, 20%, 86%);
+  position: absolute;
+  bottom: 0;
+  height: 40%;
+  width: 100%;
 }

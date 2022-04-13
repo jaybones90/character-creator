@@ -78,6 +78,7 @@ The character (the big illustration) should use fixed positioning, and it should
 
 Give the character a minimum height of 500px. On smaller windows, this means the character won't fit in the viewport:
 
+
 <img alt="Screenshot of a shorter Chrome window, with the character truncated at the knees" src="./docs/short-window.png" style="width: 100%;" />
 
 ### Exercise 3: Overflow
